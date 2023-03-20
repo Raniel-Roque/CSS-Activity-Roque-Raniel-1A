@@ -55,7 +55,7 @@ body {
     width: 700px;
 }
 
-a:hover {
+.social-link:hover {
     border: solid #157DC3 1px;
     border-radius: 20px;
     color: white;

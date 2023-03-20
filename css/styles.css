@@ -1,0 +1,39 @@
+body {
+    background-color: lightslategray;
+}
+
+.container {
+    margin: 200px;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.profile-picture {
+    display: block;
+    clip-path: circle();
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+@font-face {
+    font-family: Gasalt;
+    src: url(../fonts/Gasalt-Black.ttf);
+    src: url(../fonts/Gasalt-Regular.ttf);
+    src: url(../fonts/Gasalt-Thin.ttf);
+}
+
+.name {
+    font-family: Gasalt;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bio {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
